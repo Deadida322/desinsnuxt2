@@ -1,0 +1,181 @@
+.rb {
+    clip-path: ellipse(100% 52% at 49% 45%);
+  
+    @media screen and (max-width: 600px) {
+      clip-path: none;
+    }
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+  }
+  
+  .v-responsive__sizer {
+    display: none;
+  }
+  
+  .head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 800px;
+  
+    @media screen and (max-width: 600px) {
+      width: 100% !important;
+      padding: 10px;
+    }
+  
+    h1 {
+      text-transform: uppercase;
+      color: rgb(228, 235, 255);
+    }
+  }
+  
+  .v-list-item__title {
+    line-height: 1.4 !important;
+    white-space: pre-wrap !important
+  }
+  
+  .feedback {
+    @media screen and (max-width: 600px) {
+      height: 320px;
+    }
+  
+  }
+  
+  .certs-100 {
+    width: 100%;
+  
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
+  
+  .certs-40 {
+    width: 40%;
+  
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
+  
+  .w-50-100 {
+    width: 49%;
+  
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
+  
+  .w-70-100 {
+    width: 69%;
+  
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
+  
+  .w-md-100 {
+    width: 49%;
+  
+    @media screen and (max-width: 960px) {
+      width: 100% !important
+    }
+  }
+  
+  
+  .w-100 {
+    width: 100%
+  }
+  
+  .text-info {
+    width: 35%;
+    text-align: center;
+    margin-right: 40px;
+  
+    .subtitle {
+      margin-top: 30px;
+      color: aliceblue;
+    }
+  
+    @media screen and (max-width: 960px) {
+      width: 90%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .advantages-card {
+    position: relative;
+  
+    .ntv-chip {
+      position: absolute;
+      top: -10px;
+      right: -1px;
+    }
+  }
+  
+  .h2 {
+    text-align: center;
+  
+  }
+  
+  .w-50 {
+    width: 49%;
+  }
+  
+  .cert-info {
+    width: 50%;
+  
+    h1 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  
+    .subtitle {
+      font-size: 24px;
+    }
+  }
+  
+  .contact-img {
+    width: 800px;
+    display: none;
+  
+    @media screen and (max-width: 960px) {
+      width: 600px;
+    }
+  
+    @media screen and (max-width: 830px) {
+      width: 500px;
+      margin-left: -150px;
+    }
+  }
+  
+  .v-list-item__title {
+    @media screen and (max-width: 470px) {
+      font-size: 14px;
+    }
+  
+    @media screen and (max-width: 420px) {
+      font-size: 12px;
+    }
+  }
+  
+  .header-title {
+    @media screen and (max-width: 500px) {
+      font-size: 24px !important;
+    }
+  }
+  .curp{
+    cursor: pointer;
+  }
